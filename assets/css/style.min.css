@@ -1,0 +1,284 @@
+/* -----------Подключение Comfortaa------------ */
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: space;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa-Medium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 500;
+    font-display: space;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa-Bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: space;
+}
+/* -----------Подключение Poppins------------ */
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Medium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 500;
+    font-display: space;
+}
+/* -----------Подключение Roboto------------ */
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Black.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 900;
+    font-display: space;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: space;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Light.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 300;
+    font-display: space;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: space;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Medium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 500;
+    font-display: space;
+}
+/* -----------Подключение Montserrat------------ */
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: space;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Medium.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 500;
+    font-display: space;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-SemiBold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 600;
+    font-display: space;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: space;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Comfortaa;
+}
+.container{
+    max-width: 1692px;
+    margin: 0 auto;
+}
+a:hover{
+    color: black;
+}
+/* s1 */
+.s1{
+    background: url(../img/main/Sec1Bg.png)no-repeat center center / cover;
+}
+/* header */
+.h_wr{
+    display: flex;
+    padding: 65px 295px 65px 244px;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+}
+header li:not(last-child){
+    margin-right: 77px;
+}
+.h_link{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;    
+    color: #FFFFFF;
+}
+.register{
+    width: 136px;
+    padding: 9px 40px 11px 40px;
+    border: 1px solid transparent;
+    background: rgba(98, 2, 238, 0.0001);
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.4237px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+}
+.register:not(last-child){
+    margin-right: 18px;
+}
+.register:hover{
+    background: #FFFFFF;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    color: #BB6DF3;
+}
+/* intro */
+.intro_wr{
+    margin-left: 238px;
+    margin-top: 124px;
+    width: 532px;
+    padding-bottom: 228px;
+}
+.intro_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 70px;    
+    text-transform: uppercase;    
+    color: #3B668D;
+    margin-bottom: 9px;
+}
+.intro_subtitle{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.905em;
+    text-transform: uppercase;    
+    color: #3B668D;
+    margin-bottom: 32px;
+}
+hr{
+    width: 505px;
+    height: 2px;
+}
+.intro_t{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 156%;
+    text-transform: uppercase;    
+    color: #3B668D;
+    margin-top: 42px;
+}
+.intro_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.075em;    
+    color: #2B4964;
+    margin-top: 13px;
+    width: 496px;
+    margin-bottom: 27px;
+}
+.intro_btn{
+    display: inline-block;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;    
+    color: #FFFFFF;
+    border-radius: 45px;
+    padding: 24px 55px;
+    background: url(../img/main/ButtonSec1.png)no-repeat center center / cover;
+}
+/* section 2 */
+.s2_wr{
+    display: flex;
+    padding-top: 7px;
+}
+.s2_bg{
+    width: 1107px;
+    height: 1167px;
+}
+.s2_content{
+    padding-top: 91px;
+}
+.s2_con{
+    display: flex;
+}
+.s2_con:not(last-child){
+    margin-bottom: 22px;
+}
+.s2_con::before{
+    content: "";
+    background: url(../img/main/bef1.png)no-repeat center center /cover;
+    width: 93px;
+    height: 90px;
+    margin-right: 26px;
+}
+.s2_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 60px;
+    color: #3B668D;
+    width: 488px;
+}
+.s2_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2B4964;
+    width: 438px;
+}
+.s2_con1 .first{
+    width: 430px;
+}
+.con1::before{
+    background: url(../img/main/bef2.png)no-repeat center center /cover;
+}
+.con2::before{
+    background: url(../img/main/bef3.png)no-repeat center center /cover;
+}
+.con3::before{
+    background: url(../img/main/bef4.png)no-repeat center center /cover;
+}
